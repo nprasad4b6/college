@@ -10,3 +10,5 @@ $form.addEventListener('submit', (e) => {
          document.getElementById('number-type').innerHTML = `${value} is Even`
         }
 })
+
+// document.getElementById("ItemPreview").src = "data:image/png;base64,e68be19bb47466f3faa263a49ff7b7e6" + yourByteArrayAsBase64;

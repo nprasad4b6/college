@@ -13,5 +13,7 @@ client.connect(err => {
       console.log("Fetched result is" + JSON.stringify(result))
   })
  // perform actions on the collection object
-  client.close();
+  // client.close();
 });
+
+module.exports = client;
